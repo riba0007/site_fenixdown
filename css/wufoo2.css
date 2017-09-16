@@ -1,0 +1,41 @@
+.wufoo {
+    font-family: 'Lato', sans-serif;
+}
+html.embed {
+    background-color: transparent;
+}
+header#header {
+    display: none;
+}
+.wufoo .info {
+    display: none;
+}
+.wufoo input.text, .wufoo textarea.textarea {
+    border: 1px solid #e6e6e6;
+    font-size: 1rem;
+    padding: 11px 15px;
+    box-sizing: border-box;
+    background: none;
+    background-color: #fff;
+}
+.wufoo label.desc {
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    color: #27282d;
+}
+.wufoo .buttons div {
+    text-align: center;
+}
+.wufoo input#saveForm {
+    border: none;
+    color: white;
+    background-color: #f9be00;
+    padding: 15px 40px;
+    border-radius: 30px;
+    transition: all .3s ease-out;
+    font-size: 1rem;
+}
+.wufoo li.focused {
+    background-color: rgba(58, 58, 58, 0.12);
+    border-radius: 10px;
+}
