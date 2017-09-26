@@ -44,6 +44,7 @@ h1 {
 .bg-cover{
     background-image: url("../img/bg_cover.png"); 
     background-size: 130%;
+    height: 80vh;
 }
 .bg.bg-logo {
     text-align: center;
@@ -343,18 +344,23 @@ footer a, footer p{
     }
     .bg-cover{
         background-size: 130%;
+        height: 100vh;
     }
     .bg-logo img {
         width: 50%;
+    }
+    nav{
+        height: 60px;
+    }
+    nav a{
+        padding: 0 32px;
+        width: auto;
     }
     .social {
         width: 49%;
     }
     .card {
         flex: 0 0 50%;
-    }
-    .card:nth-of-type(n+5):nth-of-type(-n+6) {
-        display: inline-block;
     }
     #projetos .more {
         font-size: 1.5rem;
@@ -370,12 +376,8 @@ footer a, footer p{
     .bg-logo img {
         width: 410px;
     }
-    nav{
-        height: 60px;
-    }
-    nav a{
-        padding: 0 32px;
-        width: auto;
+    .card:nth-of-type(n+5):nth-of-type(-n+6) {
+        display: inline-block;
     }
     #sobre .container {
         display: flex;
