@@ -210,7 +210,6 @@ section {
     max-width: 1200px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     flex-direction: column;
 }
 #apoie .help{

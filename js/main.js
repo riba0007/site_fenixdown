@@ -91,8 +91,8 @@ function menuClick(){
         menuItems.removeClass('active');
         $(this).addClass('active');
     }
-    $('body').animate({ scrollTop: anchor.top });
-    return false;
+    $('html, body').animate({ scrollTop: anchor.top });
+    //return false;
 };
 
 function scrollHandler(){
