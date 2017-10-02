@@ -48,7 +48,7 @@ h1 {
 }
 .bg.bg-logo {
     text-align: center;
-    line-height: 100vh;
+    line-height: 80vh;
 }
 .bg-logo img {
     width: 60%;
@@ -345,6 +345,9 @@ footer a, footer p{
     .bg-cover{
         background-size: 130%;
         height: 100vh;
+    }
+    .bg.bg-logo {
+        line-height: 100vh;
     }
     .bg-logo img {
         width: 50%;
