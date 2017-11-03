@@ -209,9 +209,6 @@ section {
     margin: 50px auto 50px auto;
     width: 90%;
     max-width: 1200px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
 }
 #apoie .help{
     display: inline-block;
@@ -369,6 +366,9 @@ footer a, footer p{
         font-size: 1.5rem;
     }
     #apoie .more {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
         flex-direction: row;
     }
     .wufoo {
@@ -376,6 +376,9 @@ footer a, footer p{
     }
 }
 @media screen and (min-width: 800px){
+    .bg-fixed{
+        background-attachment: fixed;
+    }
     .bg-logo img {
         width: 410px;
     }
@@ -395,15 +398,15 @@ footer a, footer p{
     #apoie .help{
         margin: 30px;
         padding: 35px;
+    }   
+    #contato {
+        background-attachment: fixed;
     }
     .wufoo {
         width: 70%;
     }
 }
 @media screen and (min-width: 1024px){
-    .bg-fixed{
-        background-attachment: fixed;
-    }
     .bg-cover{
         background-size: cover;
     }
@@ -415,9 +418,6 @@ footer a, footer p{
     }
     .card:nth-of-type(n+7) {
         display: inline-block;
-    }
-    #contato {
-        background-attachment: fixed;
     }
     #contato .details {
         width: 49%;
