@@ -39,7 +39,7 @@ h1 {
 }    
 .bg-fixed{
     background-color: #27282d;
-    background-image: url("../img/background.png");
+    background-image: url("../img/background_s.png");
 }
 .bg-cover{
     background-image: url("../img/bg_cover.png"); 
@@ -238,7 +238,7 @@ section {
 /*contato*/
 #contato {
     background-color: #27282d;
-    background-image: url(../img/bg_contato.png);
+    background-image: url(../img/background_s.png);
     color: #fff;
     height: fit-content;
     padding-bottom: 70px;
@@ -378,6 +378,7 @@ footer a, footer p{
 @media screen and (min-width: 800px){
     .bg-fixed{
         background-attachment: fixed;
+        background-image: url("../img/background.png");
     }
     .bg-logo img {
         width: 410px;
@@ -400,6 +401,7 @@ footer a, footer p{
         padding: 35px;
     }   
     #contato {
+        background-image: url(../img/bg_contato.png);
         background-attachment: fixed;
     }
     .wufoo {
