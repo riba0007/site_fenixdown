@@ -356,15 +356,8 @@ footer a, footer p{
         padding: 0 32px;
         width: auto;
     }
-    #sobre .container {
-        display: flex;
-    }
     #sobre img {
-        width: 40%;
-        height: 40%;
-    }
-    #sobre .details{
-        padding: 0 40px;
+        width: 50%;
     }
     .social {
         width: 49%;
